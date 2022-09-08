@@ -1,0 +1,38 @@
+1.  The difference between the "==" and "===" operations stands in their way of equality checking. The "==" operation between two parameters returns true if their value is the same, meanwhile "===" gives only true if their types matches too.
+
+3. For the function written in "3.php" we got the following results:
+- After the first call it will be printed "String 2", because the "$string" variable was assigned by reference to the "str" variable.
+- The second call will return also "String 2", because for the value of the "string" variable we assigned the value of the "str" variable.
+
+4 & 5. The code will print 1, because the incrementation did not take place before returning the value. If we change the function return statement with the pre-incremented version, like "return ++$x;", it will actually perform the incrementation,and return 2.
+
+9. Both sessions and cookies serve to save user "settings" within a website, for easier and personal use. A session is saved temporarily on server side, and it shows the user accounts data, works with it, untill it is logged in, after which it vanishes, and they are no longer accessible after the session ends. Cookies are more for user friendly experience, it saves preferences, shop basket content, etc., and they are saved user side, inside the browser, and their lifetime can be defined by the user. In case of Emag if we have an account every time we log in a new session starts with that user, and we can see our past commands, favourite items and so on, but these are accesible only from that computer, where we logged in.  One use of cookies in case of Emag would be that even for not registered users the items put in their basket are still accesible after the webpage is closed in the browser.
+
+10. 
+Error: occurs during execution when a bigger problem is faced, and stops the execution
+Warning: during execution gives warning about some issue that may cause problem in the future, but do not stop the execution
+Notice: tells if something is not okay, giving advice what should or should not be done
+
+11.
+public: Visible from everywhere 
+protected: Visible only from inside the class and from derived classes
+private: Visible only from inside the class
+
+12. Overriding occurs when there are two methods with the same name and same parameter list (for example base class has one implementation and then the derived class overrides it with another content), meantime overloading refers of two "type" of implementation of a method, having the same function name with different parameter list.
+
+13. Interface and Abstract class are very similar concepts both being just a simple "shape" that a class can have, having method declared inside them, but not defined. The difference between these two is that when a class implements an inetrface it must define all of its declared methods, which is not the case for classes extending an abstract class.
+
+18. 
+- Singleton Pattern: This design pattern has a single class which makes sure to have only a single object, or instance of it. This single object can be accessed without creating the instance from the singleton class.
+- Composite Pattern: Within this design pattern a class is defined, which has a group of instances from its own class. Like a human who has a list of friends, which are also instances of human.
+
+19.
+- GET: used when some content is requested from some resource
+- POST: used when some content is sent to upload to a resourse
+- PUT: replaces a content in the resource
+- PATCH: modifies a content in the resource
+- DELETE: deletes a content from a resource 
+
+
+
+
